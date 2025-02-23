@@ -25,7 +25,7 @@ class _LoginPageState extends State<LoginPage> {
               ),
               const SizedBox(height: 30),
               Text(
-                'Welcome Back',
+                'Welcome Back!!',
                 style: TextStyle(
                   color: Colors.grey[700],
                   fontSize: 16,
@@ -133,11 +133,11 @@ class _LoginPageState extends State<LoginPage> {
                     ),
                   ),
                   const SizedBox(width: 4),
-                  const Text(
+                   Text(
                     'Register now',
                     style: TextStyle(
-                      color: Colors.blue,
-                      fontWeight: FontWeight.bold,
+                      color: Colors.blue[600],
+                   
                     ),
                   ),
                 ],
